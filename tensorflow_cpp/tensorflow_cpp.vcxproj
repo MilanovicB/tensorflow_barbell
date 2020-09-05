@@ -102,12 +102,10 @@ if %errorlevel% leq 1 exit 0 else exit %errorlevel%</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>if NOT EXIST "$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.dll" (
-cmd /c "$(SolutionDir)tools\wget-1.20.3-win64\wget.exe -O $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.dll https://mub.me/s8Xg"
+cmd /c "$(SolutionDir)tools\7z1900\7za.exe x $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.7z.001  -o$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\"
 )
 
-if NOT EXIST "$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.lib" (
-cmd /c "$(SolutionDir)tools\wget-1.20.3-win64\wget.exe -O $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.lib https://mub.me/GY3"
-)</Command>
+</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -133,12 +131,10 @@ if %errorlevel% leq 1 exit 0 else exit %errorlevel%</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>if NOT EXIST "$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.dll" (
-cmd /c "$(SolutionDir)tools\wget-1.20.3-win64\wget.exe -O $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.dll https://mub.me/s8Xg"
+cmd /c "$(SolutionDir)tools\7z1900\7za.exe x $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.7z.001  -o$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\"
 )
 
-if NOT EXIST "$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.lib" (
-cmd /c "$(SolutionDir)tools\wget-1.20.3-win64\wget.exe -O $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.lib https://mub.me/GY3"
-)</Command>
+</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -161,12 +157,10 @@ if %errorlevel% leq 1 exit 0 else exit %errorlevel%</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>if NOT EXIST "$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.dll" (
-cmd /c "$(SolutionDir)tools\wget-1.20.3-win64\wget.exe -O $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.dll https://mub.me/s8Xg"
+cmd /c "$(SolutionDir)tools\7z1900\7za.exe x $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.7z.001  -o$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\"
 )
 
-if NOT EXIST "$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.lib" (
-cmd /c "$(SolutionDir)tools\wget-1.20.3-win64\wget.exe -O $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.lib https://mub.me/GY3"
-)</Command>
+</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -192,12 +186,10 @@ if %errorlevel% leq 1 exit 0 else exit %errorlevel%</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>if NOT EXIST "$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.dll" (
-cmd /c "$(SolutionDir)tools\wget-1.20.3-win64\wget.exe -O $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.dll https://mub.me/s8Xg"
+cmd /c "$(SolutionDir)tools\7z1900\7za.exe x $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.7z.001  -o$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\"
 )
 
-if NOT EXIST "$(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.lib" (
-cmd /c "$(SolutionDir)tools\wget-1.20.3-win64\wget.exe -O $(SolutionDir)libtensorflow-cpu-windows-x86_64-2.3.0\lib\tensorflow.lib https://mub.me/GY3"
-)</Command>
+</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
