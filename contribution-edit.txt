@@ -1,0 +1,9 @@
+# I would like to make a small contribution or to start with TensorFlow as ML and OpenCV is something that I am totally interested in when it comes to ML/AI. """ 
+
+I would like to make the Tensorflow avalalble for the i686 / 32bit architecture of Linux Ubuntu 18.05.04 build 
+Made this file additionally just to have no controversy or what not, I just forked the project from the @clear-m, my colleague at the NXLog and I hope it's fine to,do it.
+
+For now only this.
+
+
+Milanovic Boris
